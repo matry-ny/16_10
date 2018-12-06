@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: SPARK
- * Date: 06.12.2018
- * Time: 20:07
- */
+
+$config = require_once __DIR__ . '/configs/main.php';
+require_once __DIR__ . '/components/db.php';
+
+var_dump(getConnection());
+
