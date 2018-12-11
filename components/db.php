@@ -4,7 +4,7 @@ if (!isset($config['db'])) {
 	die('DB connection can not be established');
 }
 
-function getConnection()
+function getDbConnection()
 {
 	global $config;
 
